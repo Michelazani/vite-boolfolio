@@ -1,9 +1,19 @@
 <script>
-// import HelloWorld from './components/HelloWorld.vue'
+import AppHeader from './components/AppHeader.vue';
+import AppMain from './components/AppMain.vue';
+
+export default{
+    // inserimento dei component 
+    components: { AppHeader, AppMain }
+}
 </script>
 
 <template>
-  <h1>ciao</h1>
+  <AppHeader/>
+  <AppMain/>
+
+
+  
 </template>
 
 <style lang="scss">
